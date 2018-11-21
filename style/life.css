@@ -1,0 +1,127 @@
+* {
+  box-sizing: border-box; }
+
+html {
+  font-size: rem(16px); }
+
+html,
+body {
+  height: 100%;
+  width: 100%; }
+
+body {
+  font-size: rem(16px);
+  line-height: 1.3;
+  color: black;
+  font-family: 'Ubuntu'; }
+
+a {
+  text-decoration: none;
+  outline: none; }
+
+a:active {
+  text-decoration: underline; }
+
+p {
+  margin: 0; }
+
+.life {
+  background: url("../img/life-img-4.jpg") center center no-repeat;
+  background-size: cover;
+  width: 100%;
+  text-transform: uppercase;
+  color: white;
+  position: relative;
+  overflow: hidden;
+  height: 100%; }
+
+.life-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(16, 25, 41, 0.5);
+  z-index: 0; }
+
+.life__container {
+  height: 100%;
+  position: relative;
+  margin: 0 auto;
+  width: 95%;
+  display: flex;
+  align-items: center; }
+
+.life-title {
+  margin: 0;
+  background-color: black;
+  position: absolute;
+  top: 10%;
+  padding-left: 3%;
+  padding-right: 3%;
+  text-transform: capitalize; }
+
+.life-title-ref {
+  color: white; }
+
+.life-center {
+  width: 100%;
+  height: 100%; }
+
+.nav {
+  position: absolute;
+  top: 30%;
+  width: 30%; }
+  .nav .nav__list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0; }
+    .nav .nav__list .nav__item {
+      margin-bottom: 5%;
+      text-align: left;
+      padding-left: 5%; }
+      .nav .nav__list .nav__item .nav__link {
+        color: white; }
+        .nav .nav__list .nav__item .nav__link:hover {
+          color: #00FFFF;
+          transition: .1s; }
+
+.life-bio {
+  position: absolute;
+  right: 0;
+  top: 30%;
+  width: 70%;
+  font-family: 'Abel'; }
+  .life-bio .life-bio-description {
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 2%;
+    justify-content: center; }
+    .life-bio .life-bio-description .img-hesse {
+      margin-right: 10%;
+      border-radius: 15px; }
+
+.life-text-addition {
+  font-weight: bold;
+  text-decoration: underline;
+  text-align: center; }
+
+.life-under-addition {
+  text-align: center;
+  margin-bottom: 2%; }
+
+.life-bio-biography {
+  text-transform: none;
+  text-indent: 20px;
+  text-align: justify;
+  word-wrap: break-word; }
+
+.life-footer {
+  text-transform: capitalize;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  color: white; }
+
+/*# sourceMappingURL=life.css.map */

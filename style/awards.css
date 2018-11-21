@@ -1,0 +1,178 @@
+* {
+  box-sizing: border-box; }
+
+html {
+  font-size: rem(16px); }
+
+html,
+body {
+  height: 100%;
+  width: 100%; }
+
+body {
+  font-size: rem(16px);
+  line-height: 1.3;
+  color: black;
+  font-family: 'Ubuntu'; }
+
+a {
+  text-decoration: none;
+  outline: none; }
+
+a:active {
+  text-decoration: underline; }
+
+p {
+  margin: 0; }
+
+ul {
+  margin: 0;
+  padding: 0; }
+
+.wrapper {
+  position: relative;
+  width: 100%;
+  min-height: 100%;
+  overflow: hidden; }
+
+.section {
+  background: url("../img/awards-img-1.jpg") center center no-repeat;
+  background-size: cover;
+  width: 100%;
+  text-transform: uppercase;
+  color: white;
+  position: relative;
+  overflow: hidden;
+  height: 100vh; }
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(16, 25, 41, 0.5);
+  z-index: 0; }
+
+.container {
+  height: 100%;
+  position: relative;
+  margin: 0 auto;
+  width: 95%;
+  display: flex;
+  align-items: center; }
+
+.awards-title {
+  margin: 0;
+  background-color: gray;
+  position: absolute;
+  top: 10%;
+  padding-left: 3%;
+  padding-right: 3%;
+  text-transform: capitalize; }
+
+.awards-title-ref {
+  color: white; }
+
+.nav {
+  position: absolute;
+  top: 30%;
+  width: 30%; }
+  .nav .nav__list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0; }
+    .nav .nav__list .nav__item {
+      margin-bottom: 5%;
+      text-align: left;
+      padding-left: 5%; }
+      .nav .nav__list .nav__item .nav__link {
+        color: white; }
+        .nav .nav__list .nav__item .nav__link:hover {
+          color: #00FFFF;
+          transition: .1s; }
+
+.awards-main {
+  position: absolute;
+  right: 0;
+  top: 30%;
+  width: 65%; }
+
+.awards-main-title-first {
+  margin: 0;
+  margin-bottom: 5%;
+  font-family: Arial;
+  text-align: center; }
+
+.awards-main__list {
+  margin: 0;
+  padding: 0;
+  text-transform: none;
+  font-family: 'Abel'; }
+  .awards-main__list .awards-main__item {
+    margin-bottom: 1%;
+    list-style-type: square; }
+    .awards-main__list .awards-main__item:last-of-type {
+      margin-bottom: 0; }
+
+.awards__container-reference {
+  text-align: center;
+  width: 100%;
+  text-transform: none;
+  position: absolute;
+  bottom: 3%; }
+  .awards__container-reference .awards__container-reference-prime {
+    border: 1px solid white;
+    color: white;
+    padding-left: 5px;
+    padding-right: 5px; }
+
+.bibl-container {
+  flex-direction: column;
+  justify-content: center; }
+
+.bibl-title {
+  font-family: Arial;
+  margin: 0;
+  margin-bottom: 3%; }
+
+.bibl-main {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+  height: 70%;
+  text-transform: none; }
+  .bibl-main .bibl-left {
+    width: 40%;
+    margin-right: 5%; }
+  .bibl-main .bibl-right {
+    width: 40%; }
+
+.bibl-left-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  height: 100%;
+  font-family: 'Abel';
+  margin-left: 5%;
+  margin-right: 5%; }
+  .bibl-left-list .bibl-left-item {
+    list-style-type: square; }
+
+.bibl-right-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  height: 100%;
+  font-family: 'Abel'; }
+  .bibl-right-list .bibl-right-item {
+    list-style-type: square; }
+
+.bibl-footer {
+  text-transform: capitalize;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  color: white; }
+
+/*# sourceMappingURL=awards.css.map */

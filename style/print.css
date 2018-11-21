@@ -1,0 +1,37 @@
+@media print {
+	body{
+		font-size: 15px;
+	}
+	.first-container-text{
+		right: 0;
+		top: 30%;
+		font-size: 17px;
+	}
+	.nav{
+		font-size: 14px;
+	}
+	.img-hesse{
+		margin-right: 0%;
+	}
+	.awards{
+		page-break-inside: avoid;
+		max-height: 650px;
+	}
+	.bibliography{
+		page-break-inside: avoid;
+		max-height: 650px;
+	}
+	.film-list{
+		height: 40%;
+		align-items: center;
+	}
+	.influ-main{
+		padding-left: 5%;
+	}
+	.awards-main__list{
+		padding-top: 5%;
+	}
+	.life-bio{
+		padding-left: 5%;
+	}
+}

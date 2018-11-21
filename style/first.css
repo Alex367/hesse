@@ -1,0 +1,99 @@
+* {
+  box-sizing: border-box; }
+
+html {
+  font-size: rem(16px); }
+
+html,
+body {
+  height: 100%;
+  width: 100%; }
+
+body {
+  font-size: rem(16px);
+  line-height: 1.3;
+  color: black;
+  font-family: 'Ubuntu'; }
+
+a {
+  outline: none; }
+
+a:active {
+  text-decoration: underline; }
+
+h3 {
+  margin: 0; }
+
+.first {
+  background: url("../img/first-img-1.jpg") center center no-repeat;
+  background-size: cover;
+  width: 100%;
+  text-transform: uppercase;
+  color: white;
+  position: relative;
+  overflow: hidden;
+  height: 100%; }
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(16, 25, 41, 0.5);
+  z-index: 0; }
+
+.container {
+  height: 100%;
+  position: relative;
+  margin: 0 auto;
+  width: 95%; }
+  .container .first-title {
+    margin: 0;
+    background-color: black;
+    position: absolute;
+    top: 10%;
+    padding-left: 3%;
+    padding-right: 3%;
+    text-transform: capitalize; }
+
+.first-title-ref {
+  color: white; }
+
+.nav {
+  position: absolute;
+  top: 30%;
+  width: 30%; }
+  .nav .nav__list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0; }
+    .nav .nav__list .nav__item {
+      margin-bottom: 5%;
+      text-align: left;
+      padding-left: 5%; }
+      .nav .nav__list .nav__item .nav__link {
+        color: #ffffff; }
+        .nav .nav__list .nav__item .nav__link:hover {
+          color: #00FFFF;
+          transition: .1s; }
+
+a {
+  text-decoration: none; }
+
+.first-container-text {
+  position: absolute;
+  right: 3%;
+  top: 35%;
+  font-size: 18px;
+  text-transform: none;
+  font-style: italic; }
+
+.first-footer {
+  text-transform: capitalize;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  color: white; }
+
+/*# sourceMappingURL=first.css.map */

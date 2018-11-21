@@ -1,0 +1,118 @@
+*{
+	box-sizing: border-box;
+}
+html{
+	font-size: rem(16px);
+}
+ 
+html,
+body{
+	height: 100%;
+	width: 100%;
+}
+body{
+	font-size: rem(16px);
+	line-height: 1.3;
+	color: black;
+	font-family: 'Ubuntu';
+}
+a{
+	text-decoration: none;
+	outline: none;
+}
+a:active{
+	text-decoration: underline;
+}
+p{
+	margin: 0;
+	margin-bottom: 5px;
+} 
+ul{
+	margin: 0;
+	padding: 0;
+}
+.influ{
+	background: url("../img/inf-img-1.jpg") center center no-repeat;
+	background-size: cover;
+	width: 100%;
+	text-transform: uppercase; 
+	color: white;
+	position: relative;
+	overflow: hidden;
+	height: 100%;
+}
+.overlay{
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+    background: rgba(16,25,41,0.5);
+    z-index: 0;
+}
+.influ-container{
+	height: 100%;
+	position: relative;
+	margin: 0 auto;
+	width: 95%;
+	display: flex;
+	align-items: center;
+}
+.influ-title{
+	margin: 0;
+	background-color: black;
+	position: absolute;
+	top: 10%;
+	padding-left: 3%;
+	padding-right: 3%;
+	text-transform: capitalize;
+}
+.influ-title-ref{
+	color: white;
+}
+.nav{
+	position: absolute;
+	top: 30%;
+	width: 30%;
+
+	.nav__list{
+		list-style-type: none;
+		margin: 0;
+		padding: 0;
+
+		.nav__item{
+			margin-bottom: 5%;
+			text-align: left;
+			padding-left: 5%;
+			// font-size: 16px;
+
+			.nav__link{
+				color: white;
+
+				&:hover{
+					color: #00FFFF;
+					transition: .1s;
+				}
+			}
+		}
+	}
+}
+.influ-main{
+	position: absolute;
+	top: 30%;
+	width: 70%;
+	right: 0;
+	text-transform: none;
+	// font-size: 14px;
+	text-indent: 20px;
+	text-align: justify;
+	word-wrap: break-word;
+	font-family: 'Abel';
+}
+.influ-footer{
+	text-transform: capitalize;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	color: white;
+}
